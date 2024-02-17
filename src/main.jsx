@@ -8,12 +8,11 @@ import Form from './exersice/Form.jsx'
 import SerachCountry from './exersice/SerachCountry.jsx'
 import Mapsex1 from './exersice/Mapsex1.jsx'
 import Mapsex2 from './exersice/Mapsex2.jsx'
+import Loadmore from './exersice/lodemore/Loadmore.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-
-   <Mapsex1/>
-   <Mapsex2/>
+<Loadmore/>
   </React.StrictMode>,
 )

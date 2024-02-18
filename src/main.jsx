@@ -9,10 +9,12 @@ import SerachCountry from './exersice/SerachCountry.jsx'
 import Mapsex1 from './exersice/Mapsex1.jsx'
 import Mapsex2 from './exersice/Mapsex2.jsx'
 import Loadmore from './exersice/lodemore/Loadmore.jsx'
+import TreeView from './compoments/treeNav/TreeView.jsx'
+import menus from './compoments/treeNav/data.js'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-<Loadmore/>
+    <TreeView menus={menus } />
   </React.StrictMode>,
 )

@@ -11,10 +11,13 @@ import Mapsex2 from './exersice/Mapsex2.jsx'
 import Loadmore from './exersice/lodemore/Loadmore.jsx'
 import TreeView from './compoments/treeNav/TreeView.jsx'
 import menus from './compoments/treeNav/data.js'
+import Sidebar from './compoments/TreeView2/Sidebar.jsx'
+import Qr from './compoments/Qr.jsx'
+import Light_dark from './compoments/lights/light_dark.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <TreeView menus={menus } />
+<Light_dark />
   </React.StrictMode>,
 )

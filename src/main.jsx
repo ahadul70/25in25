@@ -14,10 +14,11 @@ import menus from './compoments/treeNav/data.js'
 import Sidebar from './compoments/TreeView2/Sidebar.jsx'
 import Qr from './compoments/Qr.jsx'
 import Light_dark from './compoments/lights/light_dark.jsx'
+import Scroll from './compoments/SCROLLINCATOR/Scroll.jsx'
 
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-<Light_dark />
-  </React.StrictMode>,
-)
+    <Scroll url='https://dummyjson.com/products' />
+  </React.StrictMode>
+);

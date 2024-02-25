@@ -15,10 +15,12 @@ import Sidebar from './compoments/TreeView2/Sidebar.jsx'
 import Qr from './compoments/Qr.jsx'
 import Light_dark from './compoments/lights/light_dark.jsx'
 import Scroll from './compoments/SCROLLINCATOR/Scroll.jsx'
+import ParentTab from './compoments/tabs/ParentTab.jsx'
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Scroll url='https://dummyjson.com/products' />
+    <ParentTab/>
+    
   </React.StrictMode>
 );

@@ -17,11 +17,12 @@ import Light_dark from './compoments/lights/light_dark.jsx'
 import Scroll from './compoments/SCROLLINCATOR/Scroll.jsx'
 import ParentTab from './compoments/tabs/ParentTab.jsx'
 import ParentModal from './compoments/popUP/ParentModal.jsx'
+import Userfinder from './compoments/Githubfinder/Userfinder.jsx'
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <ParentModal/>
+    <Userfinder/>
     
   </React.StrictMode>
 );

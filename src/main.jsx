@@ -19,11 +19,12 @@ import ParentTab from './compoments/tabs/ParentTab.jsx'
 import ParentModal from './compoments/popUP/ParentModal.jsx'
 import Userfinder from './compoments/Githubfinder/Userfinder.jsx'
 import Finder from './compoments/suggestion/Finder.jsx'
+import Tic from './compoments/tictacteo/Tic.jsx'
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Finder/>
+    <Tic/>
     
   </React.StrictMode>
 );

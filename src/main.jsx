@@ -24,7 +24,7 @@ import Tic from './compoments/tictacteo/Tic.jsx'
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Tic/>
+    <App/>
     
   </React.StrictMode>
 );

@@ -6,14 +6,15 @@ import Colorgen from "./compoments/colorgen/colorgen";
 import Stars from "./compoments/stars/stars";
 import ColoorRoundTwo from "./compoments/colorgen/ColoorRoundTwo";
 import ImageSlider from "./compoments/imageslider/ImageSlider";
+import FeatureFlag_index from "./compoments/FeatureFlag/FeatureFlag_index";
+import FeatureFlagGlobalState from "./compoments/FeatureFlag/Contextflag_index";
+import Parent from "./exersice/Parent";
 
 function App() {
   return (
-    <ImageSlider
-      url={"https://picsum.photos/v2/list"}
-      page={"1"}
-      limit={"10"}
-    />
+    <div>
+      <Parent/>
+    </div>
   );
 }
 

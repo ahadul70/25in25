@@ -8,12 +8,14 @@ import ColoorRoundTwo from "./compoments/colorgen/ColoorRoundTwo";
 import ImageSlider from "./compoments/imageslider/ImageSlider";
 import FeatureFlag_index from "./compoments/FeatureFlag/FeatureFlag_index";
 import FeatureFlagGlobalState from "./compoments/FeatureFlag/Contextflag_index";
-import Parent from "./exersice/Parent";
+import Parent from "./exersice/Contextex1/Parent";
 
 function App() {
   return (
     <div>
-      <Parent/>
+      <FeatureFlagGlobalState>
+      <FeatureFlag_index/>
+      </FeatureFlagGlobalState>
     </div>
   );
 }

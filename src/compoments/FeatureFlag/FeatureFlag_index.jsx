@@ -1,18 +1,19 @@
 import React, { useContext } from "react";
-import Light_dark from "../lights/Light_dark";
-import Tic from "../tictacteo/Tic.jsx";
-import ColoorRoundTwo from "../colorgen/ColoorRoundTwo.jsx";
+import Light_dark from "../lights/Light_dark.jsx"
+import Tic from "../tictacteo/Tic.jsx"
+import ColoorRoundTwo from"../colorgen/ColoorRoundTwo.jsx"
 import { FeatureFlagsContext } from "./Contextflag_index.jsx";
 
 const componentsToRender = [
   {
-    key: "showLightAndDarkMode",
-    component: <Light_dark />,
-  },
-  {
     key: "showTic",
     component: <Tic />,
   },
+  {
+    key: "showLightAndDarkMode",
+    component: <Light_dark />,
+  },
+
   {
     key: "showcolortitle",
     component: <ColoorRoundTwo />,
@@ -20,10 +21,10 @@ const componentsToRender = [
 ];
 
 const FeatureFlag_index = () => {
-  const { loading, enabledFlags } = useContext(FeatureFlagsContext);
+  const { loading, enabled } = useContext(FeatureFlagsContext);
 
   function checkEnabledFlags(getCurrentKey) {
-    return enabledFlags[getCurrentKey];
+    return enabled[getCurrentKey];
   }
 
   if (loading) return <h1>Loading data! Please wait</h1>;

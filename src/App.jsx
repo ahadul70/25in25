@@ -9,13 +9,12 @@ import ImageSlider from "./compoments/imageslider/ImageSlider";
 import FeatureFlag_index from "./compoments/FeatureFlag/FeatureFlag_index";
 import FeatureFlagGlobalState from "./compoments/FeatureFlag/Contextflag_index";
 import Parent from "./exersice/Contextex1/Parent";
+import CustomIndex from "./compoments/useFetvhhook/CustomIndex";
 
 function App() {
   return (
     <div>
-      <FeatureFlagGlobalState>
-      <FeatureFlag_index/>
-      </FeatureFlagGlobalState>
+   <CustomIndex/>
     </div>
   );
 }

@@ -11,11 +11,15 @@ import FeatureFlagGlobalState from "./compoments/FeatureFlag/Contextflag_index";
 import Parent from "./exersice/Contextex1/Parent";
 import CustomIndex from "./compoments/useFetvhhook/CustomIndex";
 import UseOutside from "./compoments/useOnclickoutside/UseOnclickOutside";
+import DoubleParent from "./exersice/double/DoubleParent";
+import Test from "./compoments/usewindowresize/Test";
+import Scrolltothetop from "./compoments/scroll_to the_top/Scrolltothetop";
+import Scrolltopart from "./compoments/Scroll_to_sections/Scrolltopart";
 
 function App() {
   return (
     <div>
-   <UseOutside/>
+   <Scrolltopart/>
     </div>
   );
 }

@@ -14,12 +14,12 @@ import UseOutside from "./compoments/useOnclickoutside/UseOnclickOutside";
 import DoubleParent from "./exersice/double/DoubleParent";
 import Test from "./compoments/usewindowresize/Test";
 import Scrolltothetop from "./compoments/scroll_to the_top/Scrolltothetop";
-import Scrolltopart from "./compoments/Scroll_to_sections/Scrolltopart";
+import Weather from "./compoments/Weather_app/waether/Weather";
 
 function App() {
   return (
     <div>
-   <Scrolltopart/>
+<Weather/>
     </div>
   );
 }

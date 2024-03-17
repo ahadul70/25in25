@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Search from "../Search/Search";
 import { useState } from "react";
+import "./style.css"
 
 const Weather = () => {
   const [search, setSearch] = useState("");
